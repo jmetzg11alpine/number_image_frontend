@@ -1,0 +1,34 @@
+.grid-container {
+  /* display: flex;
+  flex-wrap: wrap;
+  margin: 5vh 10vw 5vh 5vw;
+  gap: 0; */
+}
+
+.grid-container {
+  width: 30vw;
+  height: 30vw;
+  margin: 2vw;
+  border: 1vw solid rgb(230, 219, 219);
+}
+.cell {
+  float: left;
+  background: blue;
+  width: 1.0714285714285vw;
+  height: 1.0714285714285vw;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0;
+}
+
+.actived {
+  background: yellow;
+}
+
+.image-button-container {
+  display: flex;
+  width: 32vw;
+  justify-content: space-between;
+  margin: 2vw;
+}
